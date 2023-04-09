@@ -10,7 +10,7 @@ import {BsFillQuestionCircleFill ,BsFillChatRightTextFill,BsSearch,BsTable} from
 
 const Header = () => {
   return (
-    <section className='fixed w-screen h-auto dark:bg-gray-600 bg-gray-300'>
+    <section className='fixed top-0 w-screen h-auto dark:bg-gray-600 bg-gray-300 shadow-lg'>
         <div className='flex  justify-between items-center p-6 '>
             {/* -------------------left---------------- */}
             <div className='flex flex-row ml-5'>

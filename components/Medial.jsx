@@ -383,7 +383,7 @@ const Medial = () => {
 
                 <div className='grid '>
                     <p className='bg-gray-400 p-2 rounded-t-md text-right text-black'>بازار نقدی فرابورس در یک نگاه</p>
-                    <table>
+                    <table className='table-auto p-4'>
                         <tbody>
                             <tr>
                                 <td>بسته 14:14:47</td>
@@ -396,8 +396,33 @@ const Medial = () => {
                             </tr>
 
                             <tr>
-                                <td></td>
-                                <td><span className='text-xs'>اول و دوم</span></td>
+                                <td>15,588,238.830 B</td>
+                                <td> ارزش بازار <span className='text-[10px]'>اول و دوم</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>4,296,098.495 B</td>
+                                <td>ارزش بازار <span className='text-[10px]'>پایه</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>17:37:38 02/01/20</td>
+                                <td>اطلاعات قیمت</td>
+                            </tr>
+
+                            <tr>
+                                <td>505,531</td>
+                                <td>تعداد معاملات</td>
+                            </tr>
+
+                            <tr>
+                                <td>555,360,431 B</td>
+                                <td>ارزش معاملات</td>
+                            </tr>
+
+                            <tr>
+                                <td>10.021 B</td>
+                                <td>حجم معاملات</td>
                             </tr>
                         </tbody>
                     </table>
@@ -405,10 +430,171 @@ const Medial = () => {
 
                 <div className='grid col-span-2'>
                     <p className='bg-green-300 p-2 rounded-t-md text-right text-black'>نماد های پر تراکنش</p>
+                    <table className='table-auto p-4'>
+                        <thead>
+                            <tr>
+                                <th>ارزش</th>
+                                <th>حجم</th>
+                                <th>تعداد</th>
+                                <th>بیشترین</th>
+                                <th>کمترین</th>
+                                <th>معامله</th>
+                                <th>آخرین</th>
+                                <th>پایانی</th>
+                                <th>قیمت</th>
+                                <th>نماد</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>997.720 B</td>
+                                <td>909.155 M</td>
+                                <td>21,387</td>
+                                <td>1,123</td>
+                                <td>1,063</td>
+                                <td className='text-red-600'>0.54</td>
+                                <td>1,111</td>
+                                <td className='text-red-600'>1.79</td>
+                                <td>1,097</td>
+                                <td>دی-بانک دی</td>
+                            </tr>
+
+                            <tr>
+                                <td>1,077.919 B</td>
+                                <td>718.435 M</td>
+                                <td>16,168</td>
+                                <td>1,570</td>
+                                <td>1,430</td>
+                                <td className='text-green-600'>5.19</td>
+                                <td>1,560</td>
+                                <td className='text-green-600'>1.15</td>
+                                <td>1,500</td>
+                                <td>کرمان-س.توسعه استان کرمان</td>
+                            </tr>
+
+                            <tr>
+                                <td>416.140 B</td>
+                                <td>75.915 M</td>
+                                <td>13,863</td>
+                                <td>5,764</td>
+                                <td>5,208</td>
+                                <td className='text-red-600'>2.44</td>
+                                <td>5,347</td>
+                                <td className='text-green-600'>0.02</td>
+                                <td>5,482</td>
+                                <td>وسپهر-سرمایه گذاری مالی سپهر صادرات</td>
+                            </tr>
+
+                            <tr>
+                                <td>549.901 B</td>
+                                <td>59.815 M</td>
+                                <td>11,330</td>
+                                <td>9,480</td>
+                                <td>8,980</td>
+                                <td className='text-red-600'>1.6</td>
+                                <td>9,240</td>
+                                <td className='text-red-600'>2.13</td>
+                                <td>9,190</td>
+                                <td>گدنا-تهیه توزیع غذای دنا آفرین فدک</td>
+                            </tr>
+
+                            <tr>
+                                <td>1,254.800 B</td>
+                                <td>280,961 M</td>
+                                <td>9,206</td>
+                                <td>4,514</td>
+                                <td>4,300</td>
+                                <td className='text-green-600'>6.99</td>
+                                <td>4,514</td>
+                                <td className='text-green-600'>5.85</td>
+                                <td>4,466</td>
+                                <td>خاور-ایران خودرو دیزل</td>
+                            </tr>
+
+                            <tr>
+                                <td>924.019 B</td>
+                                <td>44.535 M</td>
+                                <td>8,636</td>
+                                <td>21,220</td>
+                                <td>19,500</td>
+                                <td className='text-green-600'>6.96</td>
+                                <td>21,220</td>
+                                <td className='text-green-600'>4.59</td>
+                                <td>20,750</td>
+                                <td>غدیس-پاکدیس</td>
+                            </tr>
+
+                            <tr>
+                                <td>890.649 B</td>
+                                <td>57.971 M</td>
+                                <td>8,378</td>
+                                <td>15,840</td>
+                                <td>14,880</td>
+                                <td className='text-green-600'>0.32</td>
+                                <td>15,600</td>
+                                <td className='text-red-600'>1.22</td>
+                                <td>15,360</td>
+                                <td>فرابورس-فرابورس ایران</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 <div className='grid '>
                     <p className='bg-gray-600 p-2 rounded-t-md text-right'>تاثیر در شاخص</p>
+                    <table className='table-auto p-4'>
+                        <thead>
+                            <tr>
+                                <th>تاثیر</th>
+                                <th>قیمت پایانی</th>
+                                <th>نماد</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className='text-green-600'>126.53</td>
+                                <td>206,750</td>
+                                <td>مارون</td>
+                            </tr>
+
+                            <tr>
+                                <td className='text-green-600'>37.91</td>
+                                <td>4,466</td>
+                                <td>خاور</td>
+                            </tr>
+
+                            <tr>
+                                <td className='text-green-600'>15.11</td>
+                                <td>30,500</td>
+                                <td>انتخاب</td>
+                            </tr>
+
+                            <tr>
+                                <td className='text-red-600'>13.72</td>
+                                <td>4,246</td>
+                                <td>صبا</td>
+                            </tr>
+
+                            <tr>
+                                <td className='text-red-600'>13.44</td>
+                                <td>113,250</td>
+                                <td>آریا</td>
+                            </tr>
+
+                            <tr>
+                                <td className='text-red-600'>13.06</td>
+                                <td>9,960</td>
+                                <td>هرمز</td>
+                            </tr>
+
+                            <tr>
+                                <td className='text-red-600'>11.2</td>
+                                <td>8,550</td>
+                                <td>فغدیر</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 

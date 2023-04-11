@@ -134,15 +134,6 @@ const Medial = () => {
                                 <td>15:00</td>
                                 <td>شاخص بازار دوم</td>
                             </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td className='text-green-600'></td>
-                                <td className='text-green-600'></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
                             
                         </tbody>
                     </table>
@@ -150,14 +141,279 @@ const Medial = () => {
 
                 <div className=''>
                     <p className='bg-gray-600'>تاثیر در شاخص</p>
-
+                    <table className='table-fixed'>
+                        <thead>
+                            <tr>
+                                <td>تاثیر</td>
+                                <td>قیمت پایانی</td>
+                                <td>نماد</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className='text-green-600'>4008.57</td>
+                                <td>6,920</td>
+                                <td>کگل</td>
+                            </tr>
+                            <tr>
+                                <td className='text-red-600'>3964.04</td>
+                                <td>13,410</td>
+                                <td>فارس</td>
+                            </tr>
+                            <tr>
+                                <td className='text-green-600'>1360.49</td>
+                                <td>16,060</td>
+                                <td>رمپنا</td>
+                            </tr>
+                            <tr>
+                                <td className='text-green-600'>1140</td>
+                                <td>3,858</td>
+                                <td>خودرو</td>
+                            </tr>
+                            <tr>
+                                <td className='text-green-600'>1028.37</td>
+                                <td>14,670</td>
+                                <td>حکشتی</td>
+                            </tr>
+                            <tr>
+                                <td className='text-green-600'>994.26</td>
+                                <td>38,540</td>
+                                <td>مبین</td>
+                            </tr>
+                            <tr>
+                                <td className='text-red-600'>2110.14</td>
+                                <td>20,680</td>
+                                <td>تاپیکو</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 <div className='col-span-2 '>
                     <p className='bg-gray-600'>نماد های پر تراکنش</p>
+                    <table className='table-fixed'>
+                        <thead>
+                            <tr>
+                                <th>ارزش</th>
+                                <th>حجم</th>
+                                <th>تعداد</th>
+                                <th>بیشترین</th>
+                                <th>کمترین</th>
+                                <th>آخرین معامله</th>
+                                <th>قیمت پایانی</th>
+                                <th>نماد</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>4,683.872 B</td>
+                                <td>173.742 M</td>
+                                <td>89,209</td>
+                                <td>27,230</td>
+                                <td>25,260</td>
+                                <td className='text-green-600'>4.97</td>
+                                <td>27,230</td>
+                                <td className='text-green-600'>3.43</td>
+                                <td>26,830</td>
+                                <td>وکغدیر-بین المللی توسعه معادن غدیر</td>
+                            </tr>
 
+                            <tr>
+                                <td>4,158.461</td>
+                                <td>737.403 M</td>
+                                <td>29,945</td>
+                                <td>5,840</td>
+                                <td>5,320</td>
+                                <td className='text-green-600'>5.12</td>
+                                <td>5,750</td>
+                                <td className='text-green-600'>3.11</td>
+                                <td>5,640</td>
+                                <td>خگستر-گسترش سرمایه گذاری ایران خودرو</td>
+                            </tr>
+
+                            <tr>
+                                <td>4,158.461 B</td>
+                                <td>737.403 M</td>
+                                <td>21,795</td>
+                                <td>1,376</td>
+                                <td>1,338</td>
+                                <td className='text-red-600'>0.65</td>
+                                <td>1,373</td>
+                                <td className='text-red-600'>1.66</td>
+                                <td>1,359</td>
+                                <td>شستا-سرمایه گذاری تامین اجتماعی</td>
+                            </tr>
+
+                            <tr>
+                                <td>2,263.337 B</td>
+                                <td>405,656 M</td>
+                                <td>19,693</td>
+                                <td>5,697</td>
+                                <td>5,463</td>
+                                <td className='text-green-600'>4.23</td>
+                                <td>5,694</td>
+                                <td className='text-green-600'>2.12</td>
+                                <td>5,579</td>
+                                <td>فباهنر-مس شهید باهنر</td>
+                            </tr>
+
+                            <tr>
+                                <td>2,025.458 B</td>
+                                <td>705.476 M</td>
+                                <td>18,791</td>
+                                <td>2,950</td>
+                                <td>2,764</td>
+                                <td className='text-red-600'>0.79</td>
+                                <td>2,886</td>
+                                <td className='text-red-600'>1.31</td>
+                                <td>2,871</td>
+                                <td>خساپا-سایپا</td>
+                            </tr>
+
+                            <tr>
+                                <td>2,029.989 B</td>
+                                <td>527.362 M</td>
+                                <td>18,399</td>
+                                <td>3,930</td>
+                                <td>3,700</td>
+                                <td className='text-green-600'>0.55</td>
+                                <td>3,869</td>
+                                <td className='text-green-600'>0.03</td>
+                                <td>3,849</td>
+                                <td>خودرو-ایران خودرو</td>
+                            </tr>
+
+                            <tr>
+                                <td>1,351.724 B</td>
+                                <td>170.710 M</td>
+                                <td>14,961</td>
+                                <td>8,050</td>
+                                <td>7,870</td>
+                                <td className='text-red-600'>1.86</td>
+                                <td>7,900</td>
+                                <td className='text-red-600'>1.61</td>
+                                <td>7,920</td>
+                                <td>فملی-ملی صنایع مس ایران</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+        {/* ------------------------------------------ seconde part fara bors  ----------------------------------------------------- */}
+            <div className='w-full text-right bg-gray-600 rounded-t-lg p-1 -mt-0.5 '>فرابورس ایران</div>
+
+            <div className='grid grid-cols-2 gap-1'>
+                <div className='grid col-span-2'>
+                    <p className='bg-gray-600 p-2 rounded-t-md text-right'>شاخص های منتخب</p>
+                    <table className='table-auto p-4'>
+                        <thead>
+                            <tr>
+                                <th>کمترین</th>
+                                <th>بیشترین</th>
+                                <th>درصد</th>
+                                <th>تغییر</th>
+                                <th>مقدار</th>
+                                <th>انتشار</th>
+                                <th>شاخص</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>27,405.52</td>
+                                <td>27,708.47</td>
+                                <td className='text-green-600'>0.53</td>
+                                <td className='text-green-600'>146.91</td>
+                                <td>27,699.59</td>
+                                <td>15:00</td>
+                                <td>شاخص کل فرابورس</td>
+                            </tr>
+
+                            <tr>
+                                <td>7,065.61</td>
+                                <td>7,143.72</td>
+                                <td className='text-green-600'>0.57</td>
+                                <td className='text-green-600'>37.87</td>
+                                <td>7,141.43</td>
+                                <td>15:00</td>
+                                <td>شاخص قیمت فرابورس</td>
+                            </tr>
+
+                            <tr>
+                                <td>119,304.36</td>
+                                <td>121,671.69</td>
+                                <td className='text-green-600'>0.85</td>
+                                <td className='text-green-600'>1020.83</td>
+                                <td>121,671.69</td>
+                                <td>15:00</td>
+                                <td>شاخص کل هم وزن فرابورس</td>
+                            </tr>
+
+                            <tr>
+                                <td>38,870.29</td>
+                                <td>39,641.59</td>
+                                <td className='text-green-600'>0.85</td>
+                                <td className='text-green-600'>332.59</td>
+                                <td>39,641.59</td>
+                                <td>15:00</td>
+                                <td>شاخص قیمت هم وزن فرابورس</td>
+                            </tr>
+
+                            <tr>
+                                <td>9,057.42</td>
+                                <td>9,133.71</td>
+                                <td className='text-green-600'>0.59</td>
+                                <td className='text-green-600'>53.59</td>
+                                <td>9,124.66</td>
+                                <td>15:00</td>
+                                <td>بازار اول فرابورس</td>
+                            </tr>
+
+                            <tr>
+                                <td>10.840.56</td>
+                                <td>10,888.84</td>
+                                <td className='text-green-600'>0.51</td>
+                                <td className='text-green-600'>55.13</td>
+                                <td>10,888.84</td>
+                                <td>15:00</td>
+                                <td>بازار دوم فرابورس</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div className='grid '>
+                    <p className='bg-gray-400 p-2 rounded-t-md text-right text-black'>بازار نقدی فرابورس در یک نگاه</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>بسته 14:14:47</td>
+                                <td>وضعیت بازار</td>
+                            </tr>
+
+                            <tr>
+                                <td><span className='text-green-600 px-1'>146.91</span>27,699.59</td>
+                                <td>شاخص کل</td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><span className='text-xs'>اول و دوم</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div className='grid col-span-2'>
+                    <p className='bg-green-300 p-2 rounded-t-md text-right text-black'>نماد های پر تراکنش</p>
+                </div>
+
+                <div className='grid '>
+                    <p className='bg-gray-600 p-2 rounded-t-md text-right'>تاثیر در شاخص</p>
+                </div>
+            </div>
+
+
+
         </div>
     </section>
   )

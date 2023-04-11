@@ -1,11 +1,15 @@
+import Header from "../components/Header"
+import Medial from "../components/Medial"
+
 
 function App() {
   
 
   return (
-    <div className="container">
-      <h1 className='text-red-500 text-8xl'>Hello world!</h1>
-    </div>
+    <main className="container">
+      <Header/>
+      <Medial/>
+    </main>
   )
 }
 

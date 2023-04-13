@@ -17,7 +17,7 @@ const Medial = () => {
         <div className='grid '>
             <div className='w-full text-right bg-gray-600 rounded-t-lg p-1 -mt-0.5 '>بورس اوراق بهادار تهران</div>
             
-            <div className='grid grid-cols-2 gap-1'>
+            <div className='grid grid-cols-4 gap-10 sm:gap-4'>
                 <div className=''>
                     <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>بازار نقدی بورس در یک نگاه</p>
                     <table className='min-w-full text-center text-base font-light'>
@@ -55,7 +55,7 @@ const Medial = () => {
 
                 </div>
 
-                <div className='col-span-2'>
+                <div className='col-span-3'>
                     <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>شاخص های منتخب</p>
                     <table className='min-w-full text-center text-base font-light'>
                         <thead className="border-b font-medium dark:border-neutral-500">
@@ -189,7 +189,7 @@ const Medial = () => {
                     </table>
                 </div>
 
-                <div className='col-span-2 '>
+                <div className='col-span-3 '>
                     <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>نماد های پر تراکنش</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <thead className='border-b font-medium dark:border-neutral-500'>
@@ -304,8 +304,8 @@ const Medial = () => {
         {/* ------------------------------------------ seconde part fara bors  ----------------------------------------------------- */}
             <div className='w-full text-right bg-gray-600 rounded-t-lg p-1 -mt-0.5 '>فرابورس ایران</div>
 
-            <div className='grid grid-cols-2 gap-1'>
-                <div className='grid col-span-2'>
+            <div className='grid grid-cols-4 gap-10'>
+                <div className='col-span-3'>
                     <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>شاخص های منتخب</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <thead className='border-b font-medium dark:border-neutral-500'>
@@ -383,7 +383,7 @@ const Medial = () => {
                     </table>
                 </div>
 
-                <div className='grid '>
+                <div className=' '>
                     <p className='bg-gray-400 p-0.5 rounded-t-md text-right text-black'>بازار نقدی فرابورس در یک نگاه</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <tbody>
@@ -430,7 +430,7 @@ const Medial = () => {
                     </table>
                 </div>
 
-                <div className='grid col-span-2'>
+                <div className='col-span-3'>
                     <p className='bg-green-300 p-0.5 rounded-t-md text-right text-black'>نماد های پر تراکنش</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <thead className='border-b font-medium dark:border-neutral-500'>

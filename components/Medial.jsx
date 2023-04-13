@@ -2,7 +2,7 @@ import React from 'react'
 
 const Medial = () => {
   return (
-    <section className='mt-32 min-h-screen mx-auto items-center justify-center w-full'>
+    <section className='my-32 container mx-auto flex flex-wrap justify-center items-center min-h-screen min-w-full '>
         {/* ------------------top side ---------------- */}
         <div className='flex flex-row-reverse space-x-10 px-16'>
             <a href="#" className='inline-flex md:mx-10  text-center  bg-gradient-to-r from-red-500 to-red-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover'>در یک نگاه</a>
@@ -14,49 +14,12 @@ const Medial = () => {
             <a href="#" className='inline-block   bg-gradient-to-r from-pink-500 to-pink-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover'>بورس کالا</a>
         </div>
         {/* ----------------------center side -------------------- */}
-        <div className='grid '>
-            <div className='w-full text-right bg-gray-600 rounded-t-lg p-1 -mt-0.5 '>بورس اوراق بهادار تهران</div>
+        <div className='grid min-h-screen justify-center min-w-fit'>
+            <div className=' text-right bg-gray-600 rounded-t-lg p-1 -mt-0.5 mb-2 font-bold px-2'>بورس اوراق بهادار تهران</div>
             
             <div className='grid grid-cols-4 gap-10 sm:gap-4'>
-                <div className=''>
-                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>بازار نقدی بورس در یک نگاه</p>
-                    <table className='min-w-full text-center text-base font-light'>
-                        <tbody>
-                            <tr className="border-b dark:border-neutral-500">
-                                <td className="whitespace-nowrap px-2 py-3">بسته 14:14:27</td>
-                                <td className="whitespace-nowrap px-2 py-3">وضعیت بازار	</td>
-                            </tr>
-                            <tr className="border-b dark:border-neutral-500">
-                                <td className="whitespace-nowrap px-2 py-3">2,212,642.97 <span className='text-xs text-green-600'>11256.51</span></td>
-                                <td className="whitespace-nowrap px-2 py-3">شاخص کل</td>
-                            </tr>
-                            <tr className="border-b dark:border-neutral-500">
-                                <td className="whitespace-nowrap px-2 py-3">687,897.91 <span className='text-xs text-green-600'>11352.43</span></td>
-                                <td className="whitespace-nowrap px-2 py-3">(هم وزن)شاخص کل</td>
-                            </tr>
-                            <tr className="border-b dark:border-neutral-500">
-                                <td className="whitespace-nowrap px-2 py-3">81,951,635.223 B</td>
-                                <td className="whitespace-nowrap px-2 py-3">ارزش بازار</td>
-                            </tr>
-                            <tr className="border-b dark:border-neutral-500">
-                                <td className="whitespace-nowrap px-2 py-3">14:22:35 02/01/20</td>
-                                <td className="whitespace-nowrap px-2 py-3">اطلاعات قیمت</td>
-                            </tr>
-                            <tr className="border-b dark:border-neutral-500">
-                                <td className="whitespace-nowrap px-2 py-3">1.101 M</td>
-                                <td className="whitespace-nowrap px-2 py-3">تعداد معاملات</td>
-                            </tr>
-                            <tr>
-                                <td className="whitespace-nowrap px-2 py-3">138,202,493 B</td>
-                                <td className="whitespace-nowrap px-2 py-3">ارزش معاملات</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div>
-
                 <div className='col-span-3'>
-                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>شاخص های منتخب</p>
+                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right px-2'>شاخص های منتخب</p>
                     <table className='min-w-full text-center text-base font-light'>
                         <thead className="border-b font-medium dark:border-neutral-500">
                             <tr>
@@ -140,57 +103,44 @@ const Medial = () => {
                 </div>
 
                 <div className=''>
-                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>تاثیر در شاخص</p>
+                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right px-2'>بازار نقدی بورس در یک نگاه</p>
                     <table className='min-w-full text-center text-base font-light'>
-                        <thead className="border-b font-medium dark:border-neutral-500">
-                            <tr>
-                                <th scope="col" className="px-2 py-3">تاثیر</th>
-                                <th scope="col" className="px-2 py-3">قیمت پایانی</th>
-                                <th scope="col" className="px-2 py-3">نماد</th>
-                            </tr>
-                        </thead>
-                        <tbody className='text-center'>
+                        <tbody>
                             <tr className="border-b dark:border-neutral-500">
-                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>4008.57</td>
-                                <td className="whitespace-nowrap px-2 py-3">6,920</td>
-                                <td className="whitespace-nowrap px-2 py-3">کگل</td>
+                                <td className="whitespace-nowrap px-2 py-3">بسته 14:14:27</td>
+                                <td className="whitespace-nowrap px-2 py-3">وضعیت بازار	</td>
                             </tr>
                             <tr className="border-b dark:border-neutral-500">
-                                <td className='text-red-600 whitespace-nowrap px-2 py-3'>3964.04</td>
-                                <td className="whitespace-nowrap px-2 py-3">13,410</td>
-                                <td className="whitespace-nowrap px-2 py-3">فارس</td>
+                                <td className="whitespace-nowrap px-2 py-3">2,212,642.97 <span className='text-xs text-green-600'>11256.51</span></td>
+                                <td className="whitespace-nowrap px-2 py-3">شاخص کل</td>
                             </tr>
                             <tr className="border-b dark:border-neutral-500">
-                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>1360.49</td>
-                                <td className="whitespace-nowrap px-2 py-3">16,060</td>
-                                <td className="whitespace-nowrap px-2 py-3">رمپنا</td>
+                                <td className="whitespace-nowrap px-2 py-3">687,897.91 <span className='text-xs text-green-600'>11352.43</span></td>
+                                <td className="whitespace-nowrap px-2 py-3">(هم وزن)شاخص کل</td>
                             </tr>
                             <tr className="border-b dark:border-neutral-500">
-                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>1140</td>
-                                <td className="whitespace-nowrap px-2 py-3">3,858</td>
-                                <td className="whitespace-nowrap px-2 py-3">خودرو</td>
+                                <td className="whitespace-nowrap px-2 py-3">81,951,635.223 B</td>
+                                <td className="whitespace-nowrap px-2 py-3">ارزش بازار</td>
                             </tr>
                             <tr className="border-b dark:border-neutral-500">
-                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>1028.37</td>
-                                <td className="whitespace-nowrap px-2 py-3">14,670</td>
-                                <td className="whitespace-nowrap px-2 py-3">حکشتی</td>
+                                <td className="whitespace-nowrap px-2 py-3">14:22:35 02/01/20</td>
+                                <td className="whitespace-nowrap px-2 py-3">اطلاعات قیمت</td>
                             </tr>
                             <tr className="border-b dark:border-neutral-500">
-                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>994.26</td>
-                                <td className="whitespace-nowrap px-2 py-3">38,540</td>
-                                <td className="whitespace-nowrap px-2 py-3">مبین</td>
+                                <td className="whitespace-nowrap px-2 py-3">1.101 M</td>
+                                <td className="whitespace-nowrap px-2 py-3">تعداد معاملات</td>
                             </tr>
                             <tr>
-                                <td className='text-red-600 whitespace-nowrap px-2 py-3'>2110.14</td>
-                                <td className="whitespace-nowrap px-2 py-3">20,680</td>
-                                <td className="whitespace-nowrap px-2 py-3">تاپیکو</td>
+                                <td className="whitespace-nowrap px-2 py-3">138,202,493 B</td>
+                                <td className="whitespace-nowrap px-2 py-3">ارزش معاملات</td>
                             </tr>
                         </tbody>
                     </table>
+
                 </div>
 
                 <div className='col-span-3 '>
-                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>نماد های پر تراکنش</p>
+                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right px-2'>نماد های پر تراکنش</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <thead className='border-b font-medium dark:border-neutral-500'>
                             <tr>
@@ -300,13 +250,63 @@ const Medial = () => {
                         </tbody>
                     </table>
                 </div>
+
+                <div className=''>
+                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right px-2'>تاثیر در شاخص</p>
+                    <table className='min-w-full text-center text-base font-light'>
+                        <thead className="border-b font-medium dark:border-neutral-500">
+                            <tr>
+                                <th scope="col" className="px-2 py-3">تاثیر</th>
+                                <th scope="col" className="px-2 py-3">قیمت پایانی</th>
+                                <th scope="col" className="px-2 py-3">نماد</th>
+                            </tr>
+                        </thead>
+                        <tbody className='text-center'>
+                            <tr className="border-b dark:border-neutral-500">
+                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>4008.57</td>
+                                <td className="whitespace-nowrap px-2 py-3">6,920</td>
+                                <td className="whitespace-nowrap px-2 py-3">کگل</td>
+                            </tr>
+                            <tr className="border-b dark:border-neutral-500">
+                                <td className='text-red-600 whitespace-nowrap px-2 py-3'>3964.04</td>
+                                <td className="whitespace-nowrap px-2 py-3">13,410</td>
+                                <td className="whitespace-nowrap px-2 py-3">فارس</td>
+                            </tr>
+                            <tr className="border-b dark:border-neutral-500">
+                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>1360.49</td>
+                                <td className="whitespace-nowrap px-2 py-3">16,060</td>
+                                <td className="whitespace-nowrap px-2 py-3">رمپنا</td>
+                            </tr>
+                            <tr className="border-b dark:border-neutral-500">
+                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>1140</td>
+                                <td className="whitespace-nowrap px-2 py-3">3,858</td>
+                                <td className="whitespace-nowrap px-2 py-3">خودرو</td>
+                            </tr>
+                            <tr className="border-b dark:border-neutral-500">
+                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>1028.37</td>
+                                <td className="whitespace-nowrap px-2 py-3">14,670</td>
+                                <td className="whitespace-nowrap px-2 py-3">حکشتی</td>
+                            </tr>
+                            <tr className="border-b dark:border-neutral-500">
+                                <td className='text-green-600 whitespace-nowrap px-2 py-3'>994.26</td>
+                                <td className="whitespace-nowrap px-2 py-3">38,540</td>
+                                <td className="whitespace-nowrap px-2 py-3">مبین</td>
+                            </tr>
+                            <tr>
+                                <td className='text-red-600 whitespace-nowrap px-2 py-3'>2110.14</td>
+                                <td className="whitespace-nowrap px-2 py-3">20,680</td>
+                                <td className="whitespace-nowrap px-2 py-3">تاپیکو</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         {/* ------------------------------------------ seconde part fara bors  ----------------------------------------------------- */}
-            <div className='w-full text-right bg-gray-600 rounded-t-lg p-1 -mt-0.5 '>فرابورس ایران</div>
+            <div className='w-full text-right bg-gray-600 rounded-t-lg p-1 -mt-0.5 mb-2 font-bold'>فرابورس ایران</div>
 
-            <div className='grid grid-cols-4 gap-10'>
+            <div className='grid grid-cols-4 gap-4'>
                 <div className='col-span-3'>
-                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>شاخص های منتخب</p>
+                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right px-2'>شاخص های منتخب</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <thead className='border-b font-medium dark:border-neutral-500'>
                             <tr>
@@ -384,7 +384,7 @@ const Medial = () => {
                 </div>
 
                 <div className=' '>
-                    <p className='bg-gray-400 p-0.5 rounded-t-md text-right text-black'>بازار نقدی فرابورس در یک نگاه</p>
+                    <p className='bg-gradient-to-l from-gray-700 to bg-gray-500 p-0.5 rounded-t-md text-right  px-2'>بازار نقدی فرابورس در یک نگاه</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <tbody>
                             <tr className="border-b dark:border-neutral-500">
@@ -431,7 +431,7 @@ const Medial = () => {
                 </div>
 
                 <div className='col-span-3'>
-                    <p className='bg-green-300 p-0.5 rounded-t-md text-right text-black'>نماد های پر تراکنش</p>
+                    <p className='bg-gradient-to-l from-green-900 to bg-green-300 p-0.5 rounded-t-md text-right  px-2'>نماد های پر تراکنش</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <thead className='border-b font-medium dark:border-neutral-500'>
                             <tr>
@@ -544,7 +544,7 @@ const Medial = () => {
                 </div>
 
                 <div className='grid '>
-                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right'>تاثیر در شاخص</p>
+                    <p className='bg-gray-600 p-0.5 rounded-t-md text-right px-2'>تاثیر در شاخص</p>
                     <table className='min-w-full text-right text-base font-light'>
                         <thead className='border-b font-medium dark:border-neutral-500'>
                             <tr>

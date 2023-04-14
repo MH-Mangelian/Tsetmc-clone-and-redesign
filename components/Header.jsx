@@ -10,17 +10,18 @@ import {BsFillQuestionCircleFill ,BsFillChatRightTextFill,BsSearch,BsTable} from
 
 const Header = () => {
   return (
-    <section className='fixed top-0 w-screen h-auto dark:bg-gray-600 bg-gray-300 shadow-lg'>
-        <div className='flex  justify-between items-center p-6 '>
+    <section className='fixed top-0 w-screen h-auto border-b dark:border-gray-300 border-gray-800 dark:bg-gray-900 bg-gray-300 shadow-lg'>
+        <div className='flex  justify-between items-center py-3 xl:max-w-7xl xl:mx-auto max-w-full px-[8%] '>
             {/* -------------------left---------------- */}
             <div className='flex flex-row ml-5'>
                 <img src="/logo.png" alt="TSETMC" className='w-10 h-10 -ml-2' />
-                <p className='sm:text-xs text-lg py-2.5 px-2 ml-1 font-medium dark:text-white text-black'>Tehran Securities Exchange Technology Management Co.</p>
+                <p className='hidden md:flex py-2.5 px-2 ml-1 font-medium dark:text-white text-black'>Tehran Securities Exchange Technology Management Co.</p>
+                <p className='sm:text-xs hidden sm:visible text-lg  py-2.5 px-2 ml-1 font-medium dark:text-white text-black'>T.S.E.T.M.C</p>
             </div>
             {/* -------------------right---------------- */}
             <div className='flex flex-row mr-5'>
                 {/* ----------icon---------- */}
-                <div className='flex flex-row-reverse space-x-2'>
+                <div className='hidden md:flex flex-row-reverse space-x-2 '>
                     <MdFiberNew className='w-8 h-8 mx-2 text-black/90 dark:text-white jumper-hover'/>
                     <BsFillQuestionCircleFill className='w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover'/>
                     <BsFillChatRightTextFill className='w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover'/>
@@ -32,7 +33,7 @@ const Header = () => {
                     <GiEarthAfricaEurope className='w-6 h-7  text-black/90 dark:text-white jumper-hover'/>
                     <FaClipboardList className='w-6 h-7  text-black/90 dark:text-white jumper-hover'/>
                 </div>
-                <div className='flex'>
+                <div className='hidden sm:visible'>
                     <RxHamburgerMenu className='w-7 h-7 mx-2  text-black/90 dark:text-white jumper-hover'/>
                 </div>
             </div>

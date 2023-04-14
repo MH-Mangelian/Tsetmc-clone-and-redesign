@@ -4,12 +4,20 @@
 
 @layer base {
   body{
-    @apply min-h-screen bg-slate-50 dark:bg-black/90 dark:text-white scrollbar overflow-y-scroll dark:scrollbar-track-white/10 dark:scrollbar-thumb-zinc-400 scrollbar-track-slate-900/30 scrollbar-thumb-zinc-400
+    @apply min-h-screen bg-slate-50/80 dark:bg-black/90 dark:text-white scrollbar overflow-y-scroll overflow-x-hidden dark:scrollbar-track-white/10 dark:scrollbar-thumb-zinc-400 scrollbar-track-slate-900/30 scrollbar-thumb-zinc-400
   }
 }
 
 @layer components {
   .jumper-hover {
-    @apply transition-all hover:scale-110 ease-out cursor-pointer;
+    @apply transition-all hover:scale-110 ease-out cursor-pointer hover:text-white/90 dark:hover:text-white/60;
+  }
+
+  .jumper-hover-btn-center {
+    @apply transition-all hover:scale-105 ease-out cursor-pointer hover:text-white/30 text-white/80 ;
+  }
+
+  .font-prop-bolder{
+    @apply font-medium cursor-pointer 
   }
 }

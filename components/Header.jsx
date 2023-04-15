@@ -1,14 +1,36 @@
+import { useEffect, useState } from 'react';
+
+// -------------------import icons -----------------
 import {FcHeatMap} from 'react-icons/fc';
 import {RxHamburgerMenu} from 'react-icons/rx';
 import {FaClipboardList} from 'react-icons/fa';
 import {MdFiberNew,MdHome} from 'react-icons/md';
 import {GiOpenBook,GiEarthAfricaEurope} from 'react-icons/gi';
-
-import {BsFillQuestionCircleFill ,BsFillChatRightTextFill,BsSearch,BsTable} from 'react-icons/bs';
-
+import {BsFillQuestionCircleFill ,BsFillChatRightTextFill,BsSearch,BsTable,BsMoonStarsFill,BsSun} from 'react-icons/bs';
 
 
 const Header = () => {
+ const [darkMode ,setDarkMode] = useState(false);
+ const switchMode = ()=>{
+    setDarkMode(!darkMode);
+ }
+
+ useEffect(()=>{
+    localStorage.theme = 'dark'
+
+    if (darkMode){
+        localStorage.setItem('darkMode','true');
+        window.document.documentElement.classList.add('dark');
+    }else if (darkMode === false){
+        localStorage.setItem("darkMode","false");
+        window.document.documentElement.classList.remove('dark');
+    }else{
+        setDarkMode(localStorage.getItem("darkMode") === "true");
+    }
+    //localStorage.removeItem('theme')
+},[darkMode])
+
+
   return (
     <section className='fixed top-0 w-screen h-auto border-b dark:border-gray-300 border-gray-800 dark:bg-gray-900 bg-gray-300 shadow-lg'>
         <div className='flex  justify-between items-center py-3 xl:max-w-7xl xl:mx-auto max-w-full px-[8%] '>
@@ -20,6 +42,10 @@ const Header = () => {
             </div>
             {/* -------------------right---------------- */}
             <div className='flex flex-row mr-5'>
+                {/* ---------mood-------------- */}
+                <div className='flex flex-row px-3'>
+                    {darkMode ? (<BsSun onClick={()=> setDarkMode(!darkMode)} className='w-6 h-7 my-0.5 text-white transition-all hover:scale-110 ease-out cursor-pointer hover:text-blue-400'/>) : (<BsMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className='w-6 h-7 my-0.5 text-black/90 transition-all hover:scale-110 ease-out cursor-pointer hover:text-blue-950'/>)}
+                </div>
                 {/* ----------icon---------- */}
                 <div className='hidden md:flex flex-row-reverse space-x-2 '>
                     <MdFiberNew className='w-8 h-8 mx-2 text-black/90 dark:text-white jumper-hover'/>

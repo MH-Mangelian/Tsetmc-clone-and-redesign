@@ -4,7 +4,7 @@
 
 @layer base {
   body{
-    @apply min-h-screen bg-slate-50/80 dark:bg-black/90 dark:text-white scrollbar overflow-y-scroll overflow-x-hidden dark:scrollbar-track-white/10 dark:scrollbar-thumb-zinc-400 scrollbar-track-slate-900/30 scrollbar-thumb-zinc-400
+    @apply min-h-screen bg-[#F6F6F6] dark:bg-black/90 dark:text-white scrollbar overflow-y-scroll overflow-x-hidden dark:scrollbar-track-white/10 dark:scrollbar-thumb-zinc-400 scrollbar-track-slate-900/30 scrollbar-thumb-zinc-400
   }
 }
 

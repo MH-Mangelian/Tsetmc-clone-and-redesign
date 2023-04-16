@@ -5,7 +5,7 @@ const Medial = () => {
     <section className='min-h-screen justify-center items-center w-screen'>
         <div className='my-32 container mx-auto flex flex-wrap justify-center items-center min-h-screen min-w-full'>
             {/* ------------------top side Mobile ---------------- */}
-            <div className="grid grid-cols-4 gap-1 mx-2 text-center md:hidden">
+            <div className="grid grid-cols-4 gap-1 mx-2 text-center md:hidden ">
             <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-red-500 to-red-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>در یک نگاه</a>
                 <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-green-500 to-green-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس اوراق بهادار تهران</a>
                 <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-yellow-500 to-yellow-600  p-2 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>فرابورس ایران</a>
@@ -15,7 +15,7 @@ const Medial = () => {
                 <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-pink-500 to-pink-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس کالا</a>
             </div>
             {/* ------------------top side ---------------- */}
-            <div className='grid grid-flow-col auto-cols-max px-16 gap-x-2 max-sm:hidden '>
+            <div className='grid grid-flow-col auto-cols-max px-16 gap-x-2 max-md:hidden xl:top-0'>
             {/* flex flex-row-reverse space-x-10 px-16 */}
                 <a href="#" className='inline-block font-medium bg-gradient-to-r from-pink-500 to-pink-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس کالا</a>
                 <a href="#" className='inline-block font-medium bg-gradient-to-r from-purple-500 to-purple-800 p-2 px-3  border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>صندوق های سرمایه گذاری</a>

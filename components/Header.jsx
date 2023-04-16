@@ -40,7 +40,7 @@ const Header = () => {
     <header className="fixed top-0 w-screen h-auto border-b dark:border-gray-300 border-gray-800 dark:bg-gray-900 bg-gray-300 shadow-lg">
       <div className="flex  justify-between items-center py-3 xl:max-w-[90%] xl:mx-auto max-w-full px-[8%] ">
         {/* -------------------left---------------- */}
-        <div className="flex flex-row ml-5">
+        <div className={`${toggle ? "hidden" : ""} flex flex-row ml-5`}>
           <img src="/logo.png" alt="TSETMC" className="w-10 h-10 -ml-2" />
           <p className="flex max-sm:hidden py-2.5 px-2 ml-1 font-medium dark:text-white text-black">
             Tehran Securities Exchange Technology Management Co.
@@ -52,7 +52,7 @@ const Header = () => {
         {/* -------------------right---------------- */}
         <div className="flex flex-row mr-5">
           {/* ---------mood-------------- */}
-          <div className="flex flex-row px-3">
+          <div className={`${toggle ? "hidden" : ""} flex flex-row px-3`}>
             {darkMode ? (
               <BsSun
                 onClick={() => setDarkMode(!darkMode)}
@@ -82,7 +82,7 @@ const Header = () => {
             <div className="">
               {toggle ? (
                 <MdClose
-                  className="w-7 h-7 mx-2 text-black/90 dark:text-white jumper-hover hover:text-blue-700"
+                  className="w-7 h-7 mx-2 absolute top-3.5 right-3.5 text-black/90 dark:text-white jumper-hover hover:text-blue-700"
                   onClick={() => setToggle(!toggle)}
                 />
               ) : (
@@ -96,7 +96,7 @@ const Header = () => {
             <div
               className={`${
                 toggle ? "flex" : "hidden"
-              } p-4 top-20 right-0 mx-4 rounded-lg shadow-md bg-gradient-to-l from-white/25 to-white/80 dark:bg-gradient-to-l dark:from-slate-800 dark:to-slate-700/60 `}
+              } ${toggle ? "min-h-screen" : ""} py-20 w-screen items-end justify-end mx-4 rounded-lg shadow-md bg-gradient-to-l from-white/25 to-white/80 dark:bg-gradient-to-l dark:from-slate-800 dark:to-slate-700/60 `}
             >
               <ul className="">
                 <li className="flex">

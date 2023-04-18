@@ -15,8 +15,7 @@ const Medial = () => {
                 <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-pink-500 to-pink-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس کالا</a>
             </div>
             {/* ------------------top side ---------------- */}
-            <div className='grid grid-flow-col auto-cols-max px-16 gap-x-2 max-md:hidden xl:top-0'>
-            {/* flex flex-row-reverse space-x-10 px-16 */}
+            <div className='grid grid-flow-col auto-cols-max px-16 gap-x-2 max-md:hidden xl:absolute xl:flex-row xl:top-20 xl:'>
                 <a href="#" className='inline-block font-medium bg-gradient-to-r from-pink-500 to-pink-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس کالا</a>
                 <a href="#" className='inline-block font-medium bg-gradient-to-r from-purple-500 to-purple-800 p-2 px-3  border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>صندوق های سرمایه گذاری</a>
                 <a href="#" className='inline-block font-medium bg-gradient-to-r from-orange-500 to-orange-700  p-2 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>شبکه کدال</a>

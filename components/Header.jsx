@@ -78,7 +78,7 @@ const Header = () => {
             <GiEarthAfricaEurope className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
             <FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
           </div>
-          <div className="sm:hidden flex items-center">
+          <div className="md:hidden flex items-center">
             <div className="">
               {toggle ? (
                 <MdClose

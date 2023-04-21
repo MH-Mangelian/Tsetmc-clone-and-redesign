@@ -82,7 +82,7 @@ const Header = () => {
             <div className="">
               {toggle ? (
                 <MdClose
-                  className="w-7 h-7 mx-2 absolute top-3.5 right-3.5 text-black/90 dark:text-white jumper-hover hover:text-blue-700"
+                  className="w-7 h-7 mx-2 absolute top-6 right-8 text-black/90 dark:text-white jumper-hover hover:text-blue-700"
                   onClick={() => setToggle(!toggle)}
                 />
               ) : (
@@ -96,100 +96,111 @@ const Header = () => {
             <div
               className={`${
                 toggle ? "flex" : "hidden"
-              } ${toggle ? "min-h-screen" : ""} py-20 w-screen items-end justify-end mx-4 rounded-lg shadow-md bg-gradient-to-l from-white/25 to-white/80 dark:bg-gradient-to-l dark:from-slate-800 dark:to-slate-700/60 `}
+              } ${toggle ? "min-h-screen" : ""} w-[21rem] items-center justify-center rounded-lg shadow-md bg-gradient-to-l from-white/25 to-white/80 dark:bg-gradient-to-l dark:from-slate-800 dark:to-slate-700/60 `}
             >
-              <ul className="">
-                <li className="flex">
+              <div className="grid grid-cols-1 gap-2 mx-2 text-center justify-center items-center">
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium space-x-1.5 "
                   >
                     <p>اخبار</p>
                     <MdFiberNew className="w-8 h-8 my-0.5 text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>راهنما</p>
                     <BsFillQuestionCircleFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>ارتباط با ما</p>
                     <BsFillChatRightTextFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>نقشه بازار</p>
                     <FcHeatMap className="w-7 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>آموزش</p>
                     <GiOpenBook className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>جستجوی نماد</p>
                     <BsSearch className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>دیده بان بازار</p>
                     <BsTable className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>خانه</p>
                     <MdHome className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>Languages</p>
                     <GiEarthAfricaEurope className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-                <li className="flex my-4">
+                </div>
+
+                <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
                   <a
                     href=""
-                    className="flex text-lg font-medium my-1 space-x-1.5 bg-slate-600 py-1.5 px-2 rounded-md"
+                    className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>سایر خدمات</p>
                     <FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
                   </a>
-                </li>
-              </ul>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>

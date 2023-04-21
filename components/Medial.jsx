@@ -3,7 +3,7 @@ import React from 'react'
 const Medial = () => {
   return (
     <section className='min-h-screen justify-center items-center w-screen'>
-        <div className='my-32 container mx-auto flex flex-wrap justify-center items-center min-h-screen min-w-full'>
+        <div className='my-32 container mx-auto flex flex-wrap justify-center items-center min-h-screen min-w-full max-md:px-1.5'>
             {/* ------------------top side Mobile ---------------- */}
             <div className="grid grid-cols-4 gap-1 mx-2 text-center md:hidden max-md:mb-7 max-md:-mt-10">
                 <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-red-500 to-red-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>در یک نگاه</a>
@@ -30,7 +30,7 @@ const Medial = () => {
                 <div className='grid grid-cols-4 gap-10 max-md:gap-4'>
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gray-600 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>شاخص های منتخب</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto max-md:mx-3'>
                             <table className='min-w-full text-center text-base font-light'>
                                 <thead className="border-b font-medium dark:border-neutral-500">
                                     <tr>
@@ -153,7 +153,7 @@ const Medial = () => {
 
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gradient-to-l from-green-900 to bg-green-300 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto max-md:mx-3'>
                             <table className='min-w-full text-right text-base font-light'>
                                 <thead className='border-b font-medium dark:border-neutral-500'>
                                     <tr>
@@ -321,7 +321,7 @@ const Medial = () => {
                 <div className='grid grid-cols-4 gap-4'>
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gray-600 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>شاخص های منتخب</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto max-md:mx-3'>
                             <table className='min-w-full text-right text-base font-light'>
                                 <thead className='border-b font-medium dark:border-neutral-500'>
                                     <tr>
@@ -448,7 +448,7 @@ const Medial = () => {
 
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gradient-to-l from-green-900 to bg-green-300 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto max-md:mx-3'>
                             <table className='min-w-full text-right text-base font-light'>
                                 <thead className='border-b font-medium dark:border-neutral-500'>
                                     <tr>

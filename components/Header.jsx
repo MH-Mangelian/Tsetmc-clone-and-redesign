@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 // -------------------import icons -----------------
 import { FcHeatMap } from "react-icons/fc";
@@ -67,16 +68,16 @@ const Header = () => {
           </div>
           {/* ----------icon---------- */}
           <div className="hidden md:flex flex-row-reverse space-x-2 ">
-            <MdFiberNew className="w-8 h-8 mx-2 text-black/90 dark:text-white jumper-hover" />
-            <BsFillQuestionCircleFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
-            <BsFillChatRightTextFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
-            <FcHeatMap className="w-7 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
-            <GiOpenBook className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
-            <BsSearch className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
-            <BsTable className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
-            <MdHome className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
-            <GiEarthAfricaEurope className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
-            <FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
+            <Link><MdFiberNew className="w-8 h-8 mx-2 text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><BsFillQuestionCircleFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><BsFillChatRightTextFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><FcHeatMap className="w-7 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><GiOpenBook className="w-7 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><BsSearch className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><BsTable className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link to="/"><MdHome className="w-7 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><GiEarthAfricaEurope className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
+            <Link><FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
           </div>
           <div className="md:hidden flex items-center">
             <div className="">

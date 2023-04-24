@@ -43,10 +43,10 @@ const Header = () => {
         {/* -------------------left---------------- */}
         <div className={`${toggle ? "hidden" : ""} flex flex-row ml-5`}>
           <img src="/logo.png" alt="TSETMC" className="w-10 h-10 -ml-2" />
-          <p className="flex max-sm:hidden py-2.5 px-2 ml-1 font-medium dark:text-white text-black">
+          <p className="flex max-md:hidden py-2.5 px-2 ml-1 font-medium dark:text-white text-black">
             Tehran Securities Exchange Technology Management Co.
           </p>
-          <p className="text-sm sm:hidden py-2.5 px-2 ml-1 font-medium dark:text-white text-black">
+          <p className="text-sm md:hidden py-2.5 px-2 ml-1 font-medium dark:text-white text-black">
             T.S.E.T.M.C
           </p>
         </div>
@@ -67,17 +67,47 @@ const Header = () => {
             )}
           </div>
           {/* ----------icon---------- */}
-          <div className="hidden md:flex flex-row-reverse space-x-2 ">
-            <Link><MdFiberNew className="w-8 h-8 mx-2 text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><BsFillQuestionCircleFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><BsFillChatRightTextFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><FcHeatMap className="w-7 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><GiOpenBook className="w-7 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><BsSearch className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><BsTable className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link to="/"><MdHome className="w-7 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><GiEarthAfricaEurope className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
-            <Link><FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" /></Link>
+          <div className="hidden md:flex flex-row-reverse space-x-2.5 ">
+            <Link>
+              <MdFiberNew className="w-8 h-8 mx-2 text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-8 mt-5 w-12 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">اخبار</p></div>
+            </Link>
+            <Link>
+              <BsFillQuestionCircleFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">سوالات‌متداول</p></div>
+            </Link>
+            <Link>
+              <BsFillChatRightTextFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">ارتباط‌باما</p></div>
+            </Link>
+            <Link>
+              <FcHeatMap className="w-7 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">نقشه‌بازار</p></div>
+            </Link>
+            <Link>
+              <GiOpenBook className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">آموزش</p></div>
+            </Link>
+            <Link>
+              <BsSearch className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">جستجوی‌نماد</p></div>
+            </Link>
+            <Link>
+              <BsTable className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">دیده‌بان‌بازار</p></div>
+            </Link>
+            <Link to="/">
+              <MdHome className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">خانه</p></div>
+            </Link>
+            <Link>
+              <GiEarthAfricaEurope className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">Languages</p></div>
+            </Link>
+            <Link>
+              <FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
+              <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-3 mt-5 w-20 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">سایرخدمات</p></div>
+            </Link>
           </div>
           <div className="md:hidden flex items-center">
             <div className="">
@@ -95,16 +125,13 @@ const Header = () => {
             </div>
 
             <div
-              className={`${
-                toggle ? "flex" : "hidden"
-              } ${toggle ? "min-h-screen" : ""} w-[21rem] items-center justify-center rounded-lg shadow-md bg-gradient-to-l from-white/25 to-white/80 dark:bg-gradient-to-l dark:from-slate-800 dark:to-slate-700/60 `}
+              className={`${toggle ? "flex" : "hidden"} ${
+                toggle ? "min-h-screen" : ""
+              } w-[21rem] items-center justify-center rounded-lg shadow-md bg-gradient-to-l from-white/25 to-white/80 dark:bg-gradient-to-l dark:from-slate-800 dark:to-slate-700/60 `}
             >
               <div className="grid grid-cols-1 gap-2 mx-2 text-center justify-center items-center">
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md">
-                  <a
-                    href=""
-                    className="flex text-lg font-medium space-x-1.5 "
-                  >
+                  <a href="" className="flex text-lg font-medium space-x-1.5 ">
                     <p>اخبار</p>
                     <MdFiberNew className="w-8 h-8 my-0.5 text-black/90 dark:text-white jumper-hover" />
                   </a>
@@ -199,9 +226,7 @@ const Header = () => {
                     <FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
                   </a>
                 </div>
-
               </div>
-
             </div>
           </div>
         </div>

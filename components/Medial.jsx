@@ -1,36 +1,20 @@
 import React from 'react'
+//import { Link } from 'react-router-dom'
+import SideBtns from './SideBtns'
 
 const Medial = () => {
   return (
     <section className='min-h-screen justify-center items-center w-screen'>
-        <div className='my-32 container mx-auto flex flex-wrap justify-center items-center min-h-screen min-w-full'>
-            {/* ------------------top side Mobile ---------------- */}
-            <div className="grid grid-cols-4 gap-1 mx-2 text-center md:hidden max-md:mb-7 max-md:-mt-10">
-                <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-red-500 to-red-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>در یک نگاه</a>
-                <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-green-500 to-green-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس اوراق بهادار تهران</a>
-                <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-yellow-500 to-yellow-600  p-2 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>فرابورس ایران</a>
-                <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-blue-500 to-blue-800  p-2 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس انرژی ایران</a>
-                <a href="#" className='col-span-3 w-[133.3%] font-medium bg-gradient-to-r from-purple-500 to-purple-800 p-2 px-3  border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>صندوق های سرمایه گذاری</a>
-                <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-orange-500 to-orange-700  p-2 border-1 rounded-lg active:shadow-md jumper-hover-btn-center'>شبکه کدال</a>
-                <a href="#" className='col-span-2 font-medium bg-gradient-to-r from-pink-500 to-pink-800 p-2 px-3 border-1 rounded-lg active:shadow-md jumper-hover-btn-center'>بورس کالا</a>
-            </div>
-            {/* ------------------top side ---------------- */}
-            <div className='grid grid-flow-col auto-cols-max px-16 gap-x-2 max-md:hidden xl:absolute xl:flex-row xl:top-20'>
-                <a href="#" className='inline-block font-medium bg-gradient-to-r from-pink-500 to-pink-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس کالا</a>
-                <a href="#" className='inline-block font-medium bg-gradient-to-r from-purple-500 to-purple-800 p-2 px-3  border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>صندوق های سرمایه گذاری</a>
-                <a href="#" className='inline-block font-medium bg-gradient-to-r from-orange-500 to-orange-700  p-2 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>شبکه کدال</a>
-                <a href="#" className='inline-block font-medium bg-gradient-to-r from-blue-500 to-blue-800  p-2 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس انرژی ایران</a>
-                <a href="#" className='inline-block font-medium bg-gradient-to-r from-yellow-500 to-yellow-600  p-2 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>فرابورس ایران</a>
-                <a href="#" className='inline-block font-medium bg-gradient-to-r from-green-500 to-green-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>بورس اوراق بهادار تهران</a>
-                <a href="#" className='inline-flex font-medium text-center  bg-gradient-to-r from-red-500 to-red-800 p-2 px-3 border-1 rounded-t-lg active:shadow-md jumper-hover-btn-center'>در یک نگاه</a>
-            </div>
+        <div className='my-32 container mx-auto flex flex-wrap justify-center items-center min-h-screen min-w-full max-md:px-1.5'>
+            {/* ----------------------Side Btns-------------------- */}
+            <SideBtns/>
             {/* ----------------------center side -------------------- */}
             <div className='grid min-h-screen justify-center min-w-fit sm:grid-flow-row'>
                 <div className=' text-right bg-gray-600 text-white rounded-t-lg p-1 -mt-0.5 mb-2 font-bold px-2'>بورس اوراق بهادار تهران</div>
-                <div className='grid grid-cols-4 gap-10 max-md:gap-4'>
+                <div className='grid grid-cols-4 gap-4 max-md:gap-4'>
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gray-600 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>شاخص های منتخب</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto md:table-scroll max-md:mx-3'>
                             <table className='min-w-full text-center text-base font-light'>
                                 <thead className="border-b font-medium dark:border-neutral-500">
                                     <tr>
@@ -153,7 +137,7 @@ const Medial = () => {
 
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gradient-to-l from-green-900 to bg-green-300 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto md:table-scroll max-md:mx-3'>
                             <table className='min-w-full text-right text-base font-light'>
                                 <thead className='border-b font-medium dark:border-neutral-500'>
                                     <tr>
@@ -321,7 +305,7 @@ const Medial = () => {
                 <div className='grid grid-cols-4 gap-4'>
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gray-600 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>شاخص های منتخب</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto md:table-scroll max-md:mx-3'>
                             <table className='min-w-full text-right text-base font-light'>
                                 <thead className='border-b font-medium dark:border-neutral-500'>
                                     <tr>
@@ -355,14 +339,14 @@ const Medial = () => {
                                         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">شاخص قیمت فرابورس</td>
                                     </tr>
 
-                                    <tr class="border-b dark:border-neutral-500">
-                                        <td class="whitespace-nowrap px-2 py-3">119,304.36</td>
-                                        <td class="whitespace-nowrap px-2 py-3">121,671.69</td>
+                                    <tr className="border-b dark:border-neutral-500">
+                                        <td className="whitespace-nowrap px-2 py-3">119,304.36</td>
+                                        <td className="whitespace-nowrap px-2 py-3">121,671.69</td>
                                         <td className='text-green-600 whitespace-nowrap px-2 py-3'>0.85</td>
                                         <td className='text-green-600 whitespace-nowrap px-2 py-3'>1020.83</td>
-                                        <td class="whitespace-nowrap px-2 py-3">121,671.69</td>
-                                        <td class="whitespace-nowrap px-2 py-3">15:00</td>
-                                        <td class="whitespace-nowrap px-2 py-3 font-prop-bolder">شاخص کل هم وزن فرابورس</td>
+                                        <td className="whitespace-nowrap px-2 py-3">121,671.69</td>
+                                        <td className="whitespace-nowrap px-2 py-3">15:00</td>
+                                        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">شاخص کل هم وزن فرابورس</td>
                                     </tr>
 
                                     <tr className="border-b dark:border-neutral-500">
@@ -448,7 +432,7 @@ const Medial = () => {
 
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gradient-to-l from-green-900 to bg-green-300 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
-                        <div className='relative overflow-x-auto max-md:mx-3'>
+                        <div className='overflow-x-auto md:table-scroll max-md:mx-3'>
                             <table className='min-w-full text-right text-base font-light'>
                                 <thead className='border-b font-medium dark:border-neutral-500'>
                                     <tr>

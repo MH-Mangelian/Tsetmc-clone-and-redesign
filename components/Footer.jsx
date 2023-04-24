@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className=" bottom-0 w-screen h-auto border-t dark:border-gray-300 border-gray-800 dark:bg-gray-900 bg-gray-300 shadow-lg">
+    <footer className="fixed bottom-0 w-screen h-auto border-t dark:border-gray-300 border-gray-800 dark:bg-gray-900 bg-gray-300 shadow-lg">
       <div className="flex justify-between items-center py-3 xl:max-w-[90%] xl:mx-auto max-w-full px-[8%]">
         {/* ----------------------Right-------------------- */}
         <div className="flex flex-col ml-5 max-md:-ml-6">

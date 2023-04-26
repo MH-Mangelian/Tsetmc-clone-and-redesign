@@ -68,7 +68,7 @@ const Header = () => {
           </div>
           {/* ----------icon---------- */}
           <div className="hidden md:flex flex-row-reverse space-x-2.5 ">
-            <Link>
+            <Link to="">
               <MdFiberNew className="w-8 h-8 mx-2 text-black/90 dark:text-white jumper-hover" />
               <div className="absolute top-5  w-8 h-8  p-1 opacity-0  text-center transition-all hover:flex hover:opacity-80"><p className="text-xs opacity-100 ml-8 mt-5 w-12 h-10 p-1 rounded-b-md rounded-r-md text-white bg-slate-900 dark:bg-slate-800 border-2 border-neutral-600 dark:border-gray-300">اخبار</p></div>
             </Link>
@@ -129,102 +129,103 @@ const Header = () => {
                 toggle ? "min-h-screen" : ""
               } w-[21rem] items-center justify-center rounded-lg shadow-md bg-gradient-to-l from-white/25 to-white/80 dark:bg-gradient-to-l dark:from-slate-800 dark:to-slate-700/60 `}
             >
+              {/*----------------------------icon Mobile------------------------------------ */}
               <div className="grid grid-cols-1 gap-2 mx-2 text-center justify-center items-center">
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md">
-                  <a href="" className="flex text-lg font-medium space-x-1.5 ">
+                  <Link to="" className="flex text-lg font-medium space-x-1.5 ">
                     <p>اخبار</p>
                     <MdFiberNew className="w-8 h-8 my-0.5 text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>راهنما</p>
                     <BsFillQuestionCircleFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>ارتباط با ما</p>
                     <BsFillChatRightTextFill className="w-6 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>نقشه بازار</p>
                     <FcHeatMap className="w-7 h-7 my-0.5 text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>آموزش</p>
                     <GiOpenBook className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>جستجوی نماد</p>
                     <BsSearch className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>دیده بان بازار</p>
                     <BsTable className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to="/"
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>خانه</p>
                     <MdHome className="w-7 h-7  text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>Languages</p>
                     <GiEarthAfricaEurope className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex justify-center w-60 bg-slate-400 dark:bg-slate-600 py-1.5 px-2 rounded-md ">
-                  <a
-                    href=""
+                  <Link
+                    to=""
                     className="flex text-lg font-medium my-1 space-x-1.5"
                   >
                     <p>سایر خدمات</p>
                     <FaClipboardList className="w-6 h-7  text-black/90 dark:text-white jumper-hover" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

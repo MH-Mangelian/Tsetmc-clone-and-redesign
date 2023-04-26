@@ -16,7 +16,7 @@ const Medial = () => {
             <SideBtns/>
             {/* ----------------------center side -------------------- */}
             <div className='grid min-h-screen justify-center min-w-fit sm:grid-flow-row'>
-                <div className=' text-right bg-gray-600 text-white rounded-t-lg p-1 -mt-0.5 mb-2 font-bold px-2'>بورس اوراق بهادار تهران</div>
+                <div className='text-right bg-gray-600 text-white rounded-t-lg p-1 -mt-0.5 mb-2 font-bold px-2'>بورس اوراق بهادار تهران</div>
                 <div className='grid grid-cols-4 gap-4 max-md:gap-4'>
                     <div className='col-span-3 max-md:col-span-4'>
                         <p className='bg-gray-600 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>شاخص های منتخب</p>

@@ -32,7 +32,7 @@ const Medial = () => {
                     </div>
 
                     <div className='col-span-3 max-md:col-span-4'>
-                        <p className='bg-gradient-to-l from-green-900 to bg-green-300 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
+                        <p className='bg-gradient-to-l from-green-900 to bg-green-500 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
                         <div className='overflow-x-auto md:table-scroll max-md:mx-3'>
                             <TableHighTransactionSymbols/>
                         </div>
@@ -60,7 +60,7 @@ const Medial = () => {
                     </div>
 
                     <div className='col-span-3 max-md:col-span-4'>
-                        <p className='bg-gradient-to-l from-green-900 to bg-green-300 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
+                        <p className='bg-gradient-to-l from-green-900 to bg-green-500 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>نماد های پر تراکنش</p>
                         <div className='overflow-x-auto md:table-scroll max-md:mx-3'>
                             <TableHighTransactionSymbolsIR/>
                         </div>

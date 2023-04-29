@@ -14,6 +14,7 @@ import IranExchange from "../pages/IranExchange"
 import CodalNetwork from "../pages/CodalNetwork"
 import NotFound from "../pages/NotFound"
 import Indicators_BondsPage from "../pages/BondsPage_inside/Indicators_BondsPage";
+import Prices_BondsPage from "../pages/BondsPage_inside/Prices_BondsPage";
 
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route  path="/bonds" element={<BondsPage />} />
         {/* -----------------subset Bonds Page -------------------- */}
         <Route path="/bonds/indicators" element={<Indicators_BondsPage />} />
+        <Route path="/bonds/prices" element={<Prices_BondsPage/>}/>
 
         <Route  path="/commodity-exchange" element={<CommodityExchangePage />} />
         <Route  path="/investment-funds" element={<InvestmentFunds />} />

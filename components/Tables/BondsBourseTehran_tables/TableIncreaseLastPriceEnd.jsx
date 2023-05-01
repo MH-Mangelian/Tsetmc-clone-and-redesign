@@ -6,7 +6,7 @@ const TableIncreaseLastPriceEnd = () => {
       <thead className="border-b font-medium dark:border-neutral-500">
         <tr>
           <th scope="col" className="px-2 py-3">
-            تاثیر
+            
           </th>
           <th scope="col" className="px-2 py-3">
             قیمت پایانی
@@ -25,7 +25,7 @@ const TableIncreaseLastPriceEnd = () => {
           <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">کگل</td>
         </tr>
         <tr className="border-b dark:border-neutral-500">
-          <td className="text-red-600 whitespace-nowrap px-2 py-3">3964.04</td>
+          <td className="text-green-600 whitespace-nowrap px-2 py-3">3964.04</td>
           <td className="whitespace-nowrap px-2 py-3">13,410</td>
           <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">فارس</td>
         </tr>
@@ -60,7 +60,7 @@ const TableIncreaseLastPriceEnd = () => {
           <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">مبین</td>
         </tr>
         <tr>
-          <td className="text-red-600 whitespace-nowrap px-2 py-3">2110.14</td>
+          <td className="text-green-600 whitespace-nowrap px-2 py-3">2110.14</td>
           <td className="whitespace-nowrap px-2 py-3">20,680</td>
           <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
             تاپیکو

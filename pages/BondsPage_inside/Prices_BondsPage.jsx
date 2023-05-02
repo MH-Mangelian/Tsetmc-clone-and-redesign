@@ -48,7 +48,7 @@ const Prices_BondsPage = () => {
               <TableMajorDeals/>
             </div>
             <div className='max-md:col-span-4'>
-              <p className='bg-gradient-to-l from-gray-700 to bg-gray-500 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>ابزارهای نوین مالی</p>
+              <p className='bg-gradient-to-l from-gray-700 to bg-gray-500 text-white p-0.5 rounded-t-md text-right px-2 font-medium'>ابزار های نوین مالی (اوراق مشارکت)</p>
               <TableNewFinancialTools/>
             </div>
             <div className='max-md:col-span-4'>

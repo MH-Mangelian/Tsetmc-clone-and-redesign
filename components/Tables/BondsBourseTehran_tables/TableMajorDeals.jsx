@@ -6,10 +6,10 @@ const TableMajorDeals = () => {
     <thead className="border-b font-medium dark:border-neutral-500">
       <tr>
         <th scope="col" className="px-2 py-3">
-          تاثیر
+          ارزش
         </th>
         <th scope="col" className="px-2 py-3">
-          قیمت پایانی
+          قیمت
         </th>
         <th scope="col" className="px-2 py-3">
           نماد
@@ -18,52 +18,52 @@ const TableMajorDeals = () => {
     </thead>
     <tbody className="text-center">
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          4008.57
+        <td className="whitespace-nowrap px-2 py-3">
+          206.417 B
         </td>
-        <td className="whitespace-nowrap px-2 py-3">6,920</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">کگل</td>
+        <td className="whitespace-nowrap px-2 py-3">26,320</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">4افران</td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-red-600 whitespace-nowrap px-2 py-3">3964.04</td>
+        <td className="whitespace-nowrap px-2 py-3">4,071.200 B</td>
         <td className="whitespace-nowrap px-2 py-3">13,410</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">فارس</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">کمند4</td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          1360.49
+        <td className="whitespace-nowrap px-2 py-3">
+          285.687 B
         </td>
-        <td className="whitespace-nowrap px-2 py-3">16,060</td>
+        <td className="whitespace-nowrap px-2 py-3">17,760</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          رمپنا
+          سپر4
         </td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">1140</td>
-        <td className="whitespace-nowrap px-2 py-3">3,858</td>
+        <td className=" whitespace-nowrap px-2 py-3">1,486.523 B</td>
+        <td className="whitespace-nowrap px-2 py-3">83,858</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          خودرو
+          کیان4
         </td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          1028.37
+        <td className="whitespace-nowrap px-2 py-3">
+          172,028 B
         </td>
-        <td className="whitespace-nowrap px-2 py-3">14,670</td>
+        <td className="whitespace-nowrap px-2 py-3">94,670</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          حکشتی
+          افلاک4
         </td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">994.26</td>
-        <td className="whitespace-nowrap px-2 py-3">38,540</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">مبین</td>
+        <td className="whitespace-nowrap px-2 py-3">94.26 B</td>
+        <td className="whitespace-nowrap px-2 py-3">8,540</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">مرید4</td>
       </tr>
       <tr>
-        <td className="text-red-600 whitespace-nowrap px-2 py-3">2110.14</td>
-        <td className="whitespace-nowrap px-2 py-3">20,680</td>
+        <td className="whitespace-nowrap px-2 py-3">211,147 B</td>
+        <td className="whitespace-nowrap px-2 py-3">98,880</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          تاپیکو
+          زمر4
         </td>
       </tr>
     </tbody>

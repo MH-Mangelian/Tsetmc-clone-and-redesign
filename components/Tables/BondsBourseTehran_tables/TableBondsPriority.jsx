@@ -6,7 +6,7 @@ const TableBondsPriority = () => {
     <thead className="border-b font-medium dark:border-neutral-500">
       <tr>
         <th scope="col" className="px-2 py-3">
-          تاثیر
+          
         </th>
         <th scope="col" className="px-2 py-3">
           قیمت پایانی
@@ -19,53 +19,33 @@ const TableBondsPriority = () => {
     <tbody className="text-center">
       <tr className="border-b dark:border-neutral-500">
         <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          4008.57
+          9.7
         </td>
-        <td className="whitespace-nowrap px-2 py-3">6,920</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">کگل</td>
+        <td className="whitespace-nowrap px-2 py-3">69,582</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">نمرینوح</td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-red-600 whitespace-nowrap px-2 py-3">3964.04</td>
-        <td className="whitespace-nowrap px-2 py-3">13,410</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">فارس</td>
-      </tr>
-      <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          1360.49
-        </td>
-        <td className="whitespace-nowrap px-2 py-3">16,060</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          رمپنا
-        </td>
-      </tr>
-      <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">1140</td>
-        <td className="whitespace-nowrap px-2 py-3">3,858</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          خودرو
-        </td>
+        <td className="text-green-600 whitespace-nowrap px-2 py-3">9.4</td>
+        <td className="whitespace-nowrap px-2 py-3">42,410</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">حتوکاح</td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
         <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          1028.37
+          7.6
         </td>
-        <td className="whitespace-nowrap px-2 py-3">14,670</td>
+        <td className="whitespace-nowrap px-2 py-3">19,060</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          حکشتی
+          پکویرح
         </td>
       </tr>
-      <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">994.26</td>
-        <td className="whitespace-nowrap px-2 py-3">38,540</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">مبین</td>
-      </tr>
-      <tr>
-        <td className="text-red-600 whitespace-nowrap px-2 py-3">2110.14</td>
-        <td className="whitespace-nowrap px-2 py-3">20,680</td>
+      <tr className="">
+        <td className="text-green-600 whitespace-nowrap px-2 py-3">1.82</td>
+        <td className="whitespace-nowrap px-2 py-3">7,858</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          تاپیکو
+          تکنوح
         </td>
       </tr>
+      
     </tbody>
   </table>
   )

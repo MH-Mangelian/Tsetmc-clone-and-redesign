@@ -6,7 +6,7 @@ const TableBiggestPriceIncrease = () => {
     <thead className="border-b font-medium dark:border-neutral-500">
       <tr>
         <th scope="col" className="px-2 py-3">
-          تاثیر
+          
         </th>
         <th scope="col" className="px-2 py-3">
           قیمت پایانی
@@ -19,51 +19,51 @@ const TableBiggestPriceIncrease = () => {
     <tbody className="text-center">
       <tr className="border-b dark:border-neutral-500">
         <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          4008.57
+          18.9
         </td>
-        <td className="whitespace-nowrap px-2 py-3">6,920</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">کگل</td>
+        <td className="whitespace-nowrap px-2 py-3">15,980</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">اخابر</td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-red-600 whitespace-nowrap px-2 py-3">3964.04</td>
-        <td className="whitespace-nowrap px-2 py-3">13,410</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">فارس</td>
-      </tr>
-      <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          1360.49
-        </td>
-        <td className="whitespace-nowrap px-2 py-3">16,060</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          رمپنا
-        </td>
-      </tr>
-      <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">1140</td>
-        <td className="whitespace-nowrap px-2 py-3">3,858</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          خودرو
-        </td>
+        <td className="text-green-600 whitespace-nowrap px-2 py-3">8.05</td>
+        <td className="whitespace-nowrap px-2 py-3">20,610</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">خشرق</td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
         <td className="text-green-600 whitespace-nowrap px-2 py-3">
-          1028.37
+          6.99
         </td>
-        <td className="whitespace-nowrap px-2 py-3">14,670</td>
+        <td className="whitespace-nowrap px-2 py-3">4,177</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          حکشتی
+          تبهسار
         </td>
       </tr>
       <tr className="border-b dark:border-neutral-500">
-        <td className="text-green-600 whitespace-nowrap px-2 py-3">994.26</td>
-        <td className="whitespace-nowrap px-2 py-3">38,540</td>
-        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">مبین</td>
+        <td className="text-green-600 whitespace-nowrap px-2 py-3">6.98</td>
+        <td className="whitespace-nowrap px-2 py-3">34,959</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
+          تشاهد
+        </td>
+      </tr>
+      <tr className="border-b dark:border-neutral-500">
+        <td className="text-green-600 whitespace-nowrap px-2 py-3">
+          6.91
+        </td>
+        <td className="whitespace-nowrap px-2 py-3">30,870</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
+          خنصیر
+        </td>
+      </tr>
+      <tr className="border-b dark:border-neutral-500">
+        <td className="text-green-600 whitespace-nowrap px-2 py-3">6.89</td>
+        <td className="whitespace-nowrap px-2 py-3">8,560</td>
+        <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">وتوشه</td>
       </tr>
       <tr>
-        <td className="text-red-600 whitespace-nowrap px-2 py-3">2110.14</td>
-        <td className="whitespace-nowrap px-2 py-3">20,680</td>
+        <td className="text-green-600 whitespace-nowrap px-2 py-3">4.35</td>
+        <td className="whitespace-nowrap px-2 py-3">19,137</td>
         <td className="whitespace-nowrap px-2 py-3 font-prop-bolder">
-          تاپیکو
+          شیران
         </td>
       </tr>
     </tbody>
